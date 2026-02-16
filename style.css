@@ -288,10 +288,47 @@ a{
     border-radius: 100px;
     height:0.15rem;
 }
+.progress_slider::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -6px;
+}
 .player-control .mid{
     opacity:1; 
     height:2rem
 }
 .player-control .mid:hover{
     height:2.5rem;
+}
+.album{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.album-p1 img{
+    height: 3rem;
+}
+.album-p2{
+    padding-bottom: 2rem;
+}
+.album-p3 .i1,.album-p3 .i2{
+
+    font-size: 1.4rem;
+    opacity:0.7;
+
+}
+.album-p3 .i1:hover, .album-p3 .i2:hover{
+    opacity:1;
+    
+}
+.music-title{
+    font-weight: 700;
+
+}
+.author{
+    opacity: 0.7;
+    font-size: 0.8rem;
 }
