@@ -23,6 +23,7 @@ body{
     height: 90vh;
     flex:1;
     overflow: auto;
+    padding:0rem 1.5rem;
 }
 .music-player{
     background-color: black; 
@@ -187,4 +188,35 @@ a{
 }
 .badge-tray .user-det i:hover{
     opacity:1;
+}
+@media (max-width: 1000px){
+    .prem-badge, .right-arr{
+        display: none;
+    }
+}
+.cards-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin:2rem;
+}
+.card img{
+    width:100%;
+    border-radius: 0.5rem;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.card-info{
+    font-size: 0.8rem;
+    opacity: 0.7;
 }
