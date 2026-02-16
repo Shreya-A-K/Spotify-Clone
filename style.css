@@ -18,7 +18,7 @@ body{
     width:340px;
 }
 .main-content{
-    background-color: #121212;
+    background: linear-gradient(#232323,#121212,#000000);
     border-radius: 1rem;
     height: 90vh;
     flex:1;
@@ -112,4 +112,79 @@ a{
     border-radius: 1rem;
     height:1.75rem;
     padding: 0rem 2rem;
+}
+.top-icon-list{
+    position: sticky;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    background-color: #232323;
+    padding:1rem;
+}
+.top-icon-list .arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.arrows .left-arr{
+    border-color: white;
+
+}
+.arrows .left-arr img:hover, .arrows .right-arr img:hover{
+    height:2rem;
+}
+.arrows .right-arr{
+    border-radius: 50%;
+}
+.arrows img{
+    height: 1.5rem;
+    margin:0.5rem;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+.top-icon-list .badge-tray{
+    display:flex;
+    justify-content: space-between;
+}
+
+.badge-tray button, i {
+    font-weight: 700;
+    margin:0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.badge-tray .install-badge button{
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0.7;
+}
+.install-badge button i{
+    margin:0.5rem 0rem;
+}
+.install-badge button:hover{
+    opacity:1;
+}
+.badge-tray .user-det{
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    padding: 0.2rem;
+}
+.badge-tray .user-det i{
+    font-size:1.2rem;
+    opacity:0.7;
+}
+.badge-tray .user-det i:hover{
+    opacity:1;
 }
